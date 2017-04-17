@@ -1,0 +1,11 @@
+
+
+#topic_list{
+	margin: 10px 0;
+}
+#topic_list button {
+	margin: 0 2px;
+}
+.thumbnail{
+	float: left;
+}

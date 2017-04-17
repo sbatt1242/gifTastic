@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div id="topic_list"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-9">
+          <div id="gif"></div>
+        </div>
+        <div class="col-md-3">
+          <form>
+            <div class="form-group">
+                <label>Add a Topic</label>
+                <input type="text" id="topic-input" class="form-control" placeholder="Type a topic here" aria-describedby="basic-addon1">
+              </div>
+            <button id="addbtn" type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+    <script src="javascript/gif.js"></script>    
+  </body>
+</html>
